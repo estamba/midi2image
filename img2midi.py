@@ -73,7 +73,5 @@ def image2midi(image_path):
 
     midi_stream.write('midi', fp=image_path.split("/")[-1].replace(".png",".mid"))
 
-import sys
-image_path = sys.argv[1]
-image2midi(image_path)
+
 
